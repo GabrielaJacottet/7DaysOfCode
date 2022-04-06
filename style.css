@@ -22,6 +22,7 @@ header{
     text-decoration-line: none; 
 }
 
+
 .nav{
     color: #667085;
 }
@@ -64,4 +65,230 @@ header{
     color: white;
     margin-right: 5px;    
     cursor: pointer;
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+.cabecalho{
+    text-align: center;
+}
+
+.cabecalho h3{
+    color:#8E2424;
+    padding: 1rem;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.cabecalho .pergunta{
+    padding-bottom: 1rem;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.cabecalho .resposta{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+
+.metrica{
+    display: flex;
+    text-decoration: none;
+    margin: 5rem;
+}
+
+.metrica ul{
+    list-style-type: none;  
+    text-decoration-line: none; 
+    justify-content: space-between;  
+}
+
+.metrica .quantidade{
+    color:#8E2424;
+    font-family: 'Inter';
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    padding-bottom: 2px;
+}
+
+.metrica .tipo{   
+    color: #101828;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 2px;
+    
+}
+
+.metrica .texto{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #667085;
+    width: 300px;
+    padding-right: 100px;
+}
+
+.vagas .cabecalho{
+    text-align: center;
+}
+
+.vagas .cabecalho h3{
+    color:#8E2424;
+    font-family: 'Inter';
+}
+
+.vagas .cabecalho .texto{
+    padding-bottom: 1rem;
+    font-family: 'Inter';
+    font-size: 36px;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.vagas .cabecalho .continuacaotexto{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #667085;
+    padding-bottom: 3rem;
+}
+
+
+.cards{
+    padding: 3rem;    
+}
+.card{
+    border: 1px solid #EAECF0;
+    border-radius: 6px;  
+    width: 600px;  
+    padding: 1rem;    
+    margin-bottom: 20px;  
+}
+
+.cards h3{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card span{
+    padding-right: 4rem;
+}
+
+.depoimento {
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    border: 16px;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.depoimento h3{
+    color:#8E2424;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.revelacao{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #101828;
+    padding-bottom: 1rem;
+}
+   
+.depoimento img{
+    padding-bottom: 1rem;
+}
+
+.nome{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #101828;
+}
+
+.profissao{        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #667085;
+}
+
+.formulario{
+    background: #F9FAFB;
+    text-align: center;
+}
+
+.formulario h1{
+    font-family: 'Inter';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.oportunidade{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #667085;
+    padding-bottom: 1rem;
+}
+
+.email{
+    height: 48px;
+    width: 360px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    padding: 12px, 14px, 12px, 16px;   
+    margin-bottom: 1rem;
+}
+
+.rodape{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
 }
